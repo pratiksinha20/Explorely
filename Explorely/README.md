@@ -33,6 +33,8 @@ A full-stack web application to share and discover tourist spots by state and ci
    ```bash
    npm start
    ```
+this is a complete full stack project using js, react, node.js and mangoDB
+
 
 ## Folder Structure
 - `backend/` — Node.js/Express API and MongoDB models
