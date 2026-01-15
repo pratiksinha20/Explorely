@@ -34,7 +34,7 @@ A full-stack web application to share and discover tourist spots by state and ci
    npm start
    ```
 this is a complete full stack project using js, react, node.js and mangoDB
-this is all for practice only and deploy in reder.
+this  this used in travel.
 
 
 ## Folder Structure
