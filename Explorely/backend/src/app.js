@@ -63,6 +63,13 @@ if (process.env.NODE_ENV === "development") {
 app.use(express.json({ limit: "10kb" }));
 app.use(express.urlencoded({ extended: true, limit: "10kb" }));
 
+
+app.get("/", (req, res) => {
+  res.status(200).json({
+    success: true,
+    message: "Explorely Backend is running!",
+  });
+});
 // Mount all API routes under /api/v1
 app.use("/api/v1", apiRoutes);
 
